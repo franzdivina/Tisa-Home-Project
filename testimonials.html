@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tisa Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <section id="header">
+        <a href="#"><img src="img/cementlogo.png" class="logo" alt=""></a>
+        
+        <div>
+            <ul id="navbar">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a class="active" href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-dedent"></i>
+        </div>
+    </section>
+
+    <header class="header">
+        <h1>Customer Testimonials</h1>
+        <p>See what our customers are saying about us!</p>
+    </header>
+
+    <!-- Testimonials Display Section -->
+    <section class="testimonials">
+        <div class="container" id="reviews-container">
+            <!-- Testimonials will be inserted here dynamically -->
+        </div>
+    </section>
+
+    <!-- Review Submission Form -->
+    <section class="review-form">
+        <div class="container">
+            <h2>Leave a Review</h2>
+            <form id="reviewForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <textarea id="message" placeholder="Your Review" required></textarea>
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>

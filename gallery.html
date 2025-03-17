@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tisa Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <!--Header-->
+    <section id="header">
+        <a href="#"><img src="img/cementlogo.png" class="logo" alt=""></a>
+        
+        <div>
+            <ul id="navbar">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="gallery.html">Gallery</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div id="mobile">
+            <i id="bar" class="fas fa-dedent"></i>
+        </div>
+    </section>
+    <!--GALLERY-->
+    <h1> GALLERY </h1>
+    <div class="slideshow-container">
+        <!-- Slide 1 -->
+        <div class="slide fade">
+            <img src="img/StoreFront.JPG" alt="Image 1">
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide fade">
+            <img src="img/NKN_6884.jpg" alt="Image 2">
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide fade">
+            <img src="IMG/IMG_0371.JPG" alt="Image 3">
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="slide fade">
+            <img src="IMG/IMG_0487.JPG" alt="Image 4">
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="slide fade">
+            <img src="IMG/CH04_4.jpg" alt="Image 5">
+        </div>
+
+        <!-- Slide 6 -->
+        <div class="slide fade">
+            <img src="IMG/Playtile-Auburn-Unglazed-Mosaic-Tisa-Home-7280.jpg" alt="Image 6">
+        </div>
+
+        <!-- Slide 7 -->
+        <div class="slide fade">
+            <img src="IMG/Epoch-Pearl-Subway-Tile-Tisa-Home-7611.jpg" alt="Image 7">
+        </div>
+
+        <!-- Slide 8 -->
+        <div class="slide fade">
+            <img src="IMG/Chateau-Octagon-Mosaic-Tisa-Home-4097.jpg" alt="Image 8">
+        </div>
+
+        <!-- Slide 9 -->
+        <div class="slide fade">
+            <img src="IMG/medina-ceramic-tiletisa-home-683692.jpg" alt="Image 9">
+        </div>
+
+        <!-- Slide 10 -->
+        <div class="slide fade">
+            <img src="IMG/brixton_ash.jpg" alt="Image 10">
+        </div>
+        <!-- Navigation arrows -->
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <!-- Dots for navigation -->
+    <div class="dots-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="currentSlide(10)"></span>
+    </div>
+
+    <!---FOOTER--->
+    <footer class="footer">
+        <div class="container">
+            <p>Contact Us:</p>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/tisahome" class="facebook" target="_blank">Facebook</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=639274812759" class="whatsapp" target="_blank">WhatsApp</a></li>
+                <li><a href="https://www.instagram.com/tisahome/" class="instagram" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
